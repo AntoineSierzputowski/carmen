@@ -1,0 +1,232 @@
+[
+  {
+    "date": "2024-01-15T08:00:00",
+    "body": {
+      "humidity": 70,
+      "light": 1200,
+      "temperature": 22,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-15T14:00:00",
+    "body": {
+      "humidity": 65,
+      "light": 1500,
+      "temperature": 24,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-15T20:00:00",
+    "body": {
+      "humidity": 68,
+      "light": 800,
+      "temperature": 20,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-16T08:00:00",
+    "body": {
+      "humidity": 60,
+      "light": 1100,
+      "temperature": 21,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-16T14:00:00",
+    "body": {
+      "humidity": 55,
+      "light": 1300,
+      "temperature": 23,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-16T20:00:00",
+    "body": {
+      "humidity": 50,
+      "light": 700,
+      "temperature": 19,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-17T08:00:00",
+    "body": {
+      "humidity": 45,
+      "light": 1000,
+      "temperature": 20,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-17T14:00:00",
+    "body": {
+      "humidity": 40,
+      "light": 1200,
+      "temperature": 22,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-17T20:00:00",
+    "body": {
+      "humidity": 35,
+      "light": 600,
+      "temperature": 18,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-18T08:00:00",
+    "body": {
+      "humidity": 30,
+      "light": 900,
+      "temperature": 19,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-18T14:00:00",
+    "body": {
+      "humidity": 25,
+      "light": 1100,
+      "temperature": 21,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-19T08:00:00",
+    "body": {
+      "humidity": 75,
+      "light": 1400,
+      "temperature": 23,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-19T14:00:00",
+    "body": {
+      "humidity": 72,
+      "light": 1600,
+      "temperature": 25,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-20T08:00:00",
+    "body": {
+      "humidity": 68,
+      "light": 1250,
+      "temperature": 22,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-20T14:00:00",
+    "body": {
+      "humidity": 65,
+      "light": 1450,
+      "temperature": 24,
+      "plant_id": "basil-001",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-21T08:00:00",
+    "body": {
+      "humidity": 70,
+      "light": 1200,
+      "temperature": 22,
+      "plant_id": "basil-002",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-21T14:00:00",
+    "body": {
+      "humidity": 65,
+      "light": 1500,
+      "temperature": 24,
+      "plant_id": "basil-002",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-22T08:00:00",
+    "body": {
+      "humidity": 60,
+      "light": 1100,
+      "temperature": 21,
+      "plant_id": "basil-002",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-22T14:00:00",
+    "body": {
+      "humidity": 55,
+      "light": 1300,
+      "temperature": 23,
+      "plant_id": "basil-002",
+      "plant_type": "basil"
+    }
+  },
+  {
+    "date": "2024-01-23T08:00:00",
+    "body": {
+      "humidity": 65,
+      "light": 1000,
+      "temperature": 20,
+      "plant_id": "tomato-001",
+      "plant_type": "tomato"
+    }
+  },
+  {
+    "date": "2024-01-23T14:00:00",
+    "body": {
+      "humidity": 60,
+      "light": 2000,
+      "temperature": 25,
+      "plant_id": "tomato-001",
+      "plant_type": "tomato"
+    }
+  },
+  {
+    "date": "2024-01-24T08:00:00",
+    "body": {
+      "humidity": 55,
+      "light": 1800,
+      "temperature": 23,
+      "plant_id": "tomato-001",
+      "plant_type": "tomato"
+    }
+  },
+  {
+    "date": "2024-01-24T14:00:00",
+    "body": {
+      "humidity": 50,
+      "light": 2200,
+      "temperature": 27,
+      "plant_id": "tomato-001",
+      "plant_type": "tomato"
+    }
+  }
+]

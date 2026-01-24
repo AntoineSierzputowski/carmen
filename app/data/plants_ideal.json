@@ -1,0 +1,35 @@
+[
+    {
+      "id": "basil",
+      "name": "Basil",
+      "ideal_conditions": {
+        "soil_moisture": 70,
+        "temperature": {"min": 18, "max": 25, "ideal": 22},
+        "light": {"min": 500, "max": 2000, "ideal": 1200},
+        "air_humidity": {"min": 40, "max": 60, "ideal": 50}
+      },
+      "tolerances": {
+        "soil_moisture": 5,
+        "temperature": 2,
+        "light": 200,
+        "air_humidity": 5
+      }
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "ideal_conditions": {
+        "soil_moisture": 65,
+        "temperature": {"min": 20, "max": 30, "ideal": 25},
+        "light": {"min": 1000, "max": 3000, "ideal": 2000},
+        "air_humidity": {"min": 50, "max": 70, "ideal": 60}
+      },
+      "tolerances": {
+        "soil_moisture": 5,
+        "temperature": 3,
+        "light": 300,
+        "air_humidity": 5
+      }
+    }
+  ]
+  

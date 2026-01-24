@@ -1,0 +1,12 @@
+.env
+__pycache__
+.venv
+.env
+.env.test
+.local.env
+temp.png
+agent.egg-info
+db.sqlite
+checkpoints.db*
+.idea
+*.DS_Store
