@@ -65,7 +65,7 @@ app/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/carmen.git
+   git clone https://github.com/AntoineSierzputowski/carmen.git
    cd carmen
    ```
 
