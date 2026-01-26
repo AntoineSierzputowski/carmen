@@ -12,7 +12,7 @@ from pydantic import BaseModel, Field
 from langchain_core.tools import StructuredTool
 from dotenv import load_dotenv
 
-# You need to add this tool to your agent 
+# You need to add this tool to your agent => app/tools/__init__.py
 load_dotenv()
 
 logger = logging.getLogger(__name__)
