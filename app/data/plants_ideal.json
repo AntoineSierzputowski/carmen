@@ -1,35 +1,226 @@
 [
-    {
-      "id": "basil",
-      "name": "Basil",
-      "ideal_conditions": {
-        "soil_moisture": 70,
-        "temperature": {"min": 18, "max": 25, "ideal": 22},
-        "light": {"min": 500, "max": 2000, "ideal": 1200},
-        "air_humidity": {"min": 40, "max": 60, "ideal": 50}
+  {
+    "id": "basil",
+    "name": "Basil",
+    "ideal_conditions": {
+      "soil_moisture": 70,
+      "temperature": {
+        "min": 18,
+        "max": 25,
+        "ideal": 22
       },
-      "tolerances": {
-        "soil_moisture": 5,
-        "temperature": 2,
-        "light": 200,
-        "air_humidity": 5
+      "light": {
+        "min": 500,
+        "max": 2000,
+        "ideal": 1200
+      },
+      "air_humidity": {
+        "min": 40,
+        "max": 60,
+        "ideal": 50
       }
     },
-    {
-      "id": "tomato",
-      "name": "Tomato",
-      "ideal_conditions": {
-        "soil_moisture": 65,
-        "temperature": {"min": 20, "max": 30, "ideal": 25},
-        "light": {"min": 1000, "max": 3000, "ideal": 2000},
-        "air_humidity": {"min": 50, "max": 70, "ideal": 60}
-      },
-      "tolerances": {
-        "soil_moisture": 5,
-        "temperature": 3,
-        "light": 300,
-        "air_humidity": 5
-      }
+    "tolerances": {
+      "soil_moisture": 5,
+      "temperature": 2,
+      "light": 200,
+      "air_humidity": 5
     }
-  ]
-  
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "ideal_conditions": {
+      "soil_moisture": 65,
+      "temperature": {
+        "min": 20,
+        "max": 30,
+        "ideal": 25
+      },
+      "light": {
+        "min": 1000,
+        "max": 3000,
+        "ideal": 2000
+      },
+      "air_humidity": {
+        "min": 50,
+        "max": 70,
+        "ideal": 60
+      }
+    },
+    "tolerances": {
+      "soil_moisture": 5,
+      "temperature": 3,
+      "light": 300,
+      "air_humidity": 5
+    }
+  },
+  {
+    "id": "lettuce",
+    "name": "Lettuce",
+    "ideal_conditions": {
+      "soil_moisture": 75,
+      "temperature": {
+        "min": 15,
+        "max": 20,
+        "ideal": 18
+      },
+      "light": {
+        "min": 300,
+        "max": 1500,
+        "ideal": 800
+      },
+      "air_humidity": {
+        "min": 40,
+        "max": 70,
+        "ideal": 55
+      }
+    },
+    "tolerances": {
+      "soil_moisture": 5,
+      "temperature": 2,
+      "light": 150,
+      "air_humidity": 5
+    }
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "ideal_conditions": {
+      "soil_moisture": 80,
+      "temperature": {
+        "min": 15,
+        "max": 25,
+        "ideal": 20
+      },
+      "light": {
+        "min": 400,
+        "max": 1800,
+        "ideal": 1000
+      },
+      "air_humidity": {
+        "min": 50,
+        "max": 70,
+        "ideal": 60
+      }
+    },
+    "tolerances": {
+      "soil_moisture": 8,
+      "temperature": 3,
+      "light": 250,
+      "air_humidity": 8
+    }
+  },
+  {
+    "id": "pepper",
+    "name": "Pepper",
+    "ideal_conditions": {
+      "soil_moisture": 60,
+      "temperature": {
+        "min": 21,
+        "max": 30,
+        "ideal": 26
+      },
+      "light": {
+        "min": 1200,
+        "max": 3500,
+        "ideal": 2500
+      },
+      "air_humidity": {
+        "min": 50,
+        "max": 70,
+        "ideal": 60
+      }
+    },
+    "tolerances": {
+      "soil_moisture": 5,
+      "temperature": 2,
+      "light": 300,
+      "air_humidity": 5
+    }
+  },
+  {
+    "id": "spinach",
+    "name": "Spinach",
+    "ideal_conditions": {
+      "soil_moisture": 70,
+      "temperature": {
+        "min": 10,
+        "max": 20,
+        "ideal": 15
+      },
+      "light": {
+        "min": 400,
+        "max": 1600,
+        "ideal": 900
+      },
+      "air_humidity": {
+        "min": 40,
+        "max": 65,
+        "ideal": 50
+      }
+    },
+    "tolerances": {
+      "soil_moisture": 5,
+      "temperature": 2,
+      "light": 200,
+      "air_humidity": 5
+    }
+  },
+  {
+    "id": "cilantro",
+    "name": "Cilantro",
+    "ideal_conditions": {
+      "soil_moisture": 65,
+      "temperature": {
+        "min": 15,
+        "max": 22,
+        "ideal": 18
+      },
+      "light": {
+        "min": 500,
+        "max": 1800,
+        "ideal": 1100
+      },
+      "air_humidity": {
+        "min": 40,
+        "max": 60,
+        "ideal": 50
+      }
+    },
+    "tolerances": {
+      "soil_moisture": 5,
+      "temperature": 2,
+      "light": 200,
+      "air_humidity": 5
+    }
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "ideal_conditions": {
+      "soil_moisture": 70,
+      "temperature": {
+        "min": 15,
+        "max": 25,
+        "ideal": 20
+      },
+      "light": {
+        "min": 800,
+        "max": 2500,
+        "ideal": 1500
+      },
+      "air_humidity": {
+        "min": 50,
+        "max": 70,
+        "ideal": 60
+      }
+    },
+    "tolerances": {
+      "soil_moisture": 5,
+      "temperature": 3,
+      "light": 250,
+      "air_humidity": 5
+    }
+  }
+]
