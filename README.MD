@@ -1,4 +1,4 @@
-# 🌱 Carmen
+# Carmen
 
 **Intelligent Plant Care Analysis System**
 
@@ -9,17 +9,17 @@ Carmen is an AI-powered API that analyzes sensor data from plants and provides i
 [![LangChain](https://img.shields.io/badge/LangChain-0.3-orange.svg)](https://www.langchain.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## ✨ Features
+## Features
 
-- 🤖 **AI-Powered Analysis**: Uses local LLM (Ollama/Mistral) for intelligent plant condition analysis
-- 📊 **Multi-Sensor Support**: Analyzes humidity, light, and temperature data
-- 🌿 **Plant-Specific Recommendations**: Compares sensor data against ideal conditions for different plant types
-- 🔄 **Modular Pipeline Architecture**: Extensible node-based processing system
-- 🚀 **Fast & Efficient**: Built with FastAPI for high performance
-- 🔒 **Privacy-First**: Runs entirely locally with Ollama - no data sent to external services
-- 📝 **Historical Data Storage**: All analyses and actions are automatically saved to MySQL for tracking and analysis
+-  **AI-Powered Analysis**: Uses local LLM (Ollama/Mistral) for intelligent plant condition analysis
+-  **Multi-Sensor Support**: Analyzes humidity, light, and temperature data
+-  **Plant-Specific Recommendations**: Compares sensor data against ideal conditions for different plant types
+-  **Modular Pipeline Architecture**: Extensible node-based processing system
+-  **Fast & Efficient**: Built with FastAPI for high performance
+-  **Privacy-First**: Runs entirely locally with Ollama - no data sent to external services
+- **Historical Data Storage**: All analyses and actions are automatically saved to MySQL for tracking and analysis
 
-## 🏗️ Architecture
+## Architecture
 
 Carmen follows a clean, modular architecture:
 
@@ -51,7 +51,7 @@ app/
 4. **AI Analysis**: LLM analyzes enriched state and generates recommendations
 5. **Response Formatting**: Structured response with status, message, and action
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -435,7 +435,7 @@ Currently supported plants (defined in `app/data/plants_ideal.json`):
 
 To add more plants, edit `app/data/plants_ideal.json`.
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -483,7 +483,7 @@ def my_node(plant_id: str, value: float) -> dict:
     }
 ```
 
-## 🧪 Development
+## Development
 
 ### Project Structure
 
@@ -521,32 +521,3 @@ This project follows PEP 8 style guidelines. Consider using:
 - `black` for code formatting
 - `flake8` for linting
 - `mypy` for type checking
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [FastAPI](https://fastapi.tiangolo.com/) - Modern, fast web framework
-- [LangChain](https://www.langchain.com/) - Framework for LLM applications
-- [Ollama](https://ollama.ai/) - Local LLM runtime
-- [Pydantic](https://docs.pydantic.dev/) - Data validation
-
-## 📧 Contact
-
-For questions, issues, or contributions, please open an issue on GitHub.
-
----
-
-Made with ❤️ for plant lovers and developers
