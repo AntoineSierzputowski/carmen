@@ -1,11 +1,3 @@
-"""
-Agent LangChain initialization and pipeline processing.
-
-This module handles:
-- Agent initialization with LLM and tools
-- Pipeline execution (nodes -> agent -> response formatting)
-"""
-
 import os
 import json
 import logging
